@@ -6,6 +6,8 @@
 //
 
 import Foundation
+
+
 public struct LoginResponse : Codable {
     public var error : Bool
     public var message : String? = nil
