@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct GroceryCategoryResponse : Codable {
+public struct GroceryCategoryResponse : Codable {
     public let id : UUID
     public let title : String
     public let colorCode : String
